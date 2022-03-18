@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Este es el menu de la cabecera -->
+    <nav class="navbar">
+        <div class="nav_contenedor">
+            <img src="img/Instagram-Logo.png" class="logo" alt="logo">
+            <input type="text" class="nav_buscar" placeholder="Buscar">
+            <div class="nav_items">
+                <img src="img/home.png" alt="">
+                <img src="img/messenger.jpg" alt="">
+                <img src="img/mas.jpg" alt="">
+                <img src="img/brujula.png" alt="">
+                <img src="img/like.png" alt="">
+                <div class="icono perfil"></div>
+            </div>
+        </div>
+    </nav>
+    <!-- Este es el bloque que tiene las dos columnas: los post y la sugerencias -->
+    <section class="principal">
+        <div class="contenedor">
+            <div class="columna1">
+                <!-- Aqui se muestran los estados -->
+                <div class="estado">
+                    <div class="estado-card">
+                        <div class="imagen-perfil"><img src="img/Cover1.jpg" alt=""></div>
+                        <p class="username">Usuario1</p>
+                    </div><div class="estado-card">
+                        <div class="imagen-perfil"><img src="img/Cover2.jpg" alt=""></div>
+                        <p class="username">Usuario2</p>                        
+                    </div>
+                    <div class="estado-card">
+                        <div class="imagen-perfil"><img src="img/Cover3.jpg" alt=""></div>
+                        <p class="username">Usuario3</p>
+                    </div>
+                    <div class="estado-card">
+                        <div class="imagen-perfil"><img src="img/Cover1.jpg" alt=""></div>
+                        <p class="username">Usuario4</p>
+                    </div><div class="estado-card">
+                        <div class="imagen-perfil"><img src="img/Cover2.jpg" alt=""></div>
+                        <p class="username">Usuario5</p>                        
+                    </div>                    
+                </div>
+                <!-- Este es la columna de los posts -->
+                <div class="post">
+                    <div class="info">
+                        <div class="user">
+                            <div class="imagen-perfil"><img src="img/Cover3.jpg" alt=""></div>
+                            <p class="username">Usuario</p>
+                        </div>
+                    </div>
+                </div>
+                <img src="img/Cover2.jpg" class="imagen-post" alt="">
+                <div class="contenido-post">
+                    <div class="reacciones">
+                        <img src="img/like.png" alt="">
+                        <img src="img/like.png" alt="">
+                        <img src="img/like.png" alt="">
+                        <img src="img/like.png" alt="">
+                    </div>
+                    <p class="likes">1,000 Likes</p>
+                    <p class="descripcion"><span>Usuario</span>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore repudiandae dolore nihil vel perferendis impedit!</p>
+                    <p class="tiempo">Hace 5 minutos</p>
+                </div>
+                <div class="comentarios-contenido">
+                    <img src="img/mas.jpg" class="icon" alt="">
+                    <input type="text" class="comentarios-caja" placeholder="Agrega un comentario">
+                    <button class="comentarios-btn">Publicar</button>
+                </div>
+            </div>
+        </div>
+        <!-- Esta es la columna de las sugerencias -->
+        <div class="columna2">
+            <div class="perfil-card">
+                <div class="imagen-perfil">
+                    <img src="img/Cover3.jpg" alt="">
+                </div>
+                <p class="username">Usuario</p>
+                <p class="nombre">Apellido</p>
+            </div>
+            <div class="perfil-card">
+                <div class="imagen-perfil">
+                    <img src="img/Cover3.jpg" alt="">
+                </div>
+                <p class="username">Usuario</p>
+                <p class="nombre">Apellido</p>
+            </div>
+            <div class="perfil-card">
+                <div class="imagen-perfil">
+                    <img src="img/Cover3.jpg" alt="">
+                </div>
+                <p class="username">Usuario</p>
+                <p class="nombre">Apellido</p>
+            </div>
+            <div class="perfil-card">
+                <div class="imagen-perfil">
+                    <img src="img/Cover3.jpg" alt="">
+                </div>
+                <p class="username">Usuario</p>
+                <p class="nombre">Apellido</p>
+            </div>
+            <button class="action-btn">Cambiar</button>
+        </div>
+        <p class="sugerencia">Sugerencias para ti</p>
+    </section>
+</body>
+</html>
